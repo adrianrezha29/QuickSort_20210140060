@@ -30,6 +30,9 @@ namespace QuickSort_20210140060
                     Console.WriteLine("\nArray can have maximum 20 elements \n");
              
             }
+            Console.WriteLine("\n====================");
+            Console.WriteLine("Enter Array Elements");
+            Console.WriteLine("\n====================");
         }
     }
 }
