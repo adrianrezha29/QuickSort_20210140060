@@ -15,7 +15,14 @@ namespace QuickSort_20210140060
 
         //Number of elements in array
         private int n;
+
+
+        void input()
         {
+            while (true)
+            {
+                
+            }
         }
     }
 }
