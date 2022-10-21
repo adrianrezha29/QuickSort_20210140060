@@ -91,6 +91,20 @@ namespace QuickSort_20210140060
                     mov_count++;
                 }
             }
+            //j now contains the index of the last elemnt in the sorted list
+
+            if (low < j)
+            {
+                //Move the pivot to its correct position in the list
+                swap(low, j);
+                mov_count++;
+            }
+            //sort the list on the left of pivot using quick sort
+            q_sort(low, j - 1);
+
+            //Sort the list on the right of pivot using quick sort
+            q_sort(j + 1, high);
         }
+        
     }
 }
