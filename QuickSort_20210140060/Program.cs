@@ -52,6 +52,12 @@ namespace QuickSort_20210140060
             arr[y] = temp;
         }
         public void q_sort(int low, int high)
+        {
+            int pivot, i, i;
+            if (low > high)
+                return;
+        
+        }
 
     }
 }
