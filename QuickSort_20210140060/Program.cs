@@ -21,7 +21,14 @@ namespace QuickSort_20210140060
         {
             while (true)
             {
-                
+                Console.Write("Enter the number of elements in the array :");
+                string s = Console.ReadLine();
+                n = Int32.Parse(s);
+                if (n <= 20)
+                    break;
+                else
+                    Console.WriteLine("\nArray can have maximum 20 elements \n");
+             
             }
         }
     }
