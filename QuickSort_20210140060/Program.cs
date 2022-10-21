@@ -51,5 +51,7 @@ namespace QuickSort_20210140060
             arr[x] = arr[y];
             arr[y] = temp;
         }
+        public void q_sort(int low, int high)
+
     }
 }
